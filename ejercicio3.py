@@ -4,10 +4,10 @@ tiene la función len() incorporada, pero escribirla por nosotros mismos resulta
 ejercicio.
 """
 
-def largor(entrada):
+def longitud_cadena(entrada):
     contador = 0
     for i in entrada:
         contador += 1
     return contador
 
-print(largor("Programador"))
+print(longitud_cadena("Programador"))
