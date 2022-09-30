@@ -10,4 +10,6 @@ def longitud_cadena(entrada):
         contador += 1
     return contador
 
-print(longitud_cadena("Programador"))
+palabra = input("Ingresa una palabra: ")
+
+print(longitud_cadena(palabra))
