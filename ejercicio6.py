@@ -6,4 +6,6 @@ Definir una función inversa() que calcule la inversión de una cadena. Por ejem
 def inversa(frase):
     print(frase[::-1])
 
-inversa("estoy probando")
+palabra = input('Ingresa una palabra: ')
+
+inversa(palabra)

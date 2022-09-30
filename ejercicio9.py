@@ -7,4 +7,7 @@ def generar_n_caracteres(n, carcater):
     resultado = carcater*n
     print(resultado)
 
-generar_n_caracteres(5,'x')
+num = int(input("Ingresa un número: "))
+ctr = input("Ingresa una letra: ")
+
+generar_n_caracteres(num,ctr)
